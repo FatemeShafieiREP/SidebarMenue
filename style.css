@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+width: 0px;
+height: 100vh;
+background-color: black;
+right: 0;
+top: 0;
+position: fixed;
+transition: ease-in-out 0.5s ;
+}
+button{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+ h1{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    
+}
+.close::after{
+    content: '\002716 close';
+ }
+  .open::after{
+     content: '\002630 open';
+  }
+  .show{
+     width: 250px;
+  }
